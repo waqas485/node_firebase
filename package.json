@@ -1,0 +1,32 @@
+{
+  "name": "node_firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waqas485/node_firebase.git"
+  },
+  "author": "waqas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waqas485/node_firebase/issues"
+  },
+  "homepage": "https://github.com/waqas485/node_firebase#readme",
+  "dependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase": "^11.0.2",
+    "nodemon": "^3.1.7"
+  }
+}
